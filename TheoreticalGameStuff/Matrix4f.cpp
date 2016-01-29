@@ -43,6 +43,12 @@ void Matrix4f::translate(Vector3f translation){
 
 void Matrix4f::rotate(Vector3f rotation){
     identity();
+    Matrix4f xRot;
+    xRot.identity();
+    
+    Matrix4f yRot;
+    
+    Matrix4f zRot;
     
 }
 
